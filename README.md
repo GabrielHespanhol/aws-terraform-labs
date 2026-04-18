@@ -23,6 +23,7 @@ Criando uma infraestrutura básica na AWS utilizando Terraform.
 - [Troubleshooting](#-troubleshooting)
 - [Contribuindo](#-contribuindo)
 - [Referências](#-referências)
+- [⚠️ Avisos importantes](AVISOS.md)
 
 ---
 
@@ -133,7 +134,7 @@ cd linuxtips-terraform-aws
 
 ### Passo 2: Ajustar configurações
 
-1. Criar sua chave SSH para acesso ao servidor, pode utilizar o comando de exemplo apontado no arquivo `COMANDOS.md`
+1. Criar sua chave SSH para acesso ao servidor, pode utilizar o comando de exemplo apontado no arquivo [COMMANDOS.md](COMANDOS.md)
 2. Ajustar o conteúdo da chave SSH no arquivo key-pair.tf
 3. Escolher a AMI a ser utilizada em ec2.tf, por padrão está o amazon linux 2023
 
